@@ -17,8 +17,12 @@ This report delves into the analysis of absenteeism in the workplace, based on t
       <a href="#exploratory-data-analysis">Exploratory Data Analysis</a>
     </li>
     <li><a href="#data-preprocessing">Data Preprocessing</a></li>
-    <li><a href="#Data Transformation and Feature Engineering">Data Transformation and Feature Engineering</a></li>
-    <li><a href="#Machine Learning Algorithm: Predicting Absenteeism">Machine Learning Algorithm: Predicting Absenteeism</a></li>
+          <a href="#data-transformation-and-feature-engineering">Data Transformation and Feature Engineering</a>
+    </li>
+    <li>
+      <a href="#machine-learning-algorithm-predicting-absenteeism">Machine Learning Algorithm: Predicting Absenteeism</a>
+    </li>
+    <li>
     <li><a href="#conclusion">Conclusion and Recommendation</a></li>
   </ol>
 </details>
