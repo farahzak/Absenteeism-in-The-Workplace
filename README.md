@@ -1,6 +1,6 @@
-# Workplace case Study
+# Workplace Case Study
 
-This report delves into the analysis of absenteeism in the workplace, based on the Jupyter Notebook titled "Case study (1)" from the GitHub repository "Absenteeism in The Workplace". The study aims to predict absenteeism at work, focusing on the likelihood of an employee being absent for a certain number of hours during a workday. This prediction is crucial for enhancing company productivity by efficiently reorganizing workflow and managing workforce resources. [Absenteeism at Work]([https://github.com/Juantonios1/Absenteeism-Analysis-to-Improve-Work-Performance/blob/main/Absenteeism%20Analysis%20ipynb/Absenteeism%20Analysis%20to%20Improve%20Work%20Performance.ipynb](https://github.com/farahzak/Absenteeism-in-The-Workplace/blob/main/Absenteeism%20-%20Data%20Preprocessing.ipynb)).
+This report delves into the analysis of absenteeism in the workplace, based on the Jupyter Notebooks from the GitHub repository "Absenteeism in The Workplace". The study aims to predict absenteeism at work, focusing on the likelihood of an employee being absent for a certain number of hours during a workday. This prediction is crucial for enhancing company productivity by efficiently reorganizing workflow and managing workforce resources. [Absenteeism at Work]([https://github.com/Juantonios1/Absenteeism-Analysis-to-Improve-Work-Performance/blob/main/Absenteeism%20Analysis%20ipynb/Absenteeism%20Analysis%20to%20Improve%20Work%20Performance.ipynb](https://github.com/farahzak/Absenteeism-in-The-Workplace/blob/main/Absenteeism%20-%20Data%20Preprocessing.ipynb)).
 
 ## Summary Process
 <!-- TABLE OF CONTENTS -->
