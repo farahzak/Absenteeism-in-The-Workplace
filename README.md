@@ -86,37 +86,32 @@ At this stage, another information analysis will be carried out, as follows:
 
 You can also see the full dashboard of analysis at [Analysis Tableau](https://public.tableau.com/app/profile/juan1691/viz/AnalysisAbseenteismProject/AnalysisAbseenteism).
 
-## Analysis Report: Predicting Absenteeism in the Workplace Using Logistic Regression
+## Machine Learning Algorithm: Predicting Absenteeism
 Introduction
 In the realm of human resource management, understanding and predicting absenteeism in the workplace is crucial. The GitHub repository "Absenteeism in The Workplace" presents a comprehensive analysis using a logistic regression model to address this issue. This report summarizes the key findings and insights derived from the machine learning algorithm implemented in the notebook titled "Logistic Regression model to predict absenteeism."
 
-Methodology
+**Methodology**
 The approach involved several critical steps:
 
-Target Variable Definition: The continuous variable 'Absenteeism Time in Hours' was transformed into a binary classification - 'moderately absent' and 'excessively absent'. This categorization was based on the median value of absenteeism hours.
+**Target Variable Definition:** The continuous variable 'Absenteeism Time in Hours' was transformed into a binary classification - 'moderately absent' and 'excessively absent'. This categorization was based on the median value of absenteeism hours.
 
-Data Balancing Check: The dataset's balance was assessed, revealing a near ideal split for logistic regression purposes, with 46% of the data falling into the 'excessively absent' category.
+**Data Balancing Check:** The dataset's balance was assessed, revealing a near ideal split for logistic regression purposes, with 46% of the data falling into the 'excessively absent' category.
 
-Standardization of Data: To enhance the model's performance, data standardization was carried out, excluding dummy variables. This step is essential for logistic regression models to function optimally.
+**Standardization of Data:** To enhance the model's performance, data standardization was carried out, excluding dummy variables. This step is essential for logistic regression models to function optimally.
 
-Model Training and Evaluation
+**Model Training and Evaluation**
 The logistic regression model underwent training and subsequent evaluation:
 
-Training and Accuracy: The model achieved an accuracy of approximately 79% on the training set, indicating a high level of proficiency in predicting absenteeism.
+**Training and Accuracy:** The model achieved an accuracy of approximately 79% on the training set, indicating a high level of proficiency in predicting absenteeism.
 
-Coefficient Analysis: An examination of the model's coefficients was conducted to understand the influence of each feature. Higher coefficients indicated a stronger impact on the likelihood of excessive absenteeism.
+**Coefficient Analysis:** An examination of the model's coefficients was conducted to understand the influence of each feature. Higher coefficients indicated a stronger impact on the likelihood of excessive absenteeism.
 
-Feature Selection via Backward Elimination: This technique was employed to refine the model by removing features with minimal impact, slightly improving the model's accuracy.
+**Feature Selection via Backward Elimination:** This technique was employed to refine the model by removing features with minimal impact, slightly improving the model's accuracy.
 
-Testing on Unseen Data: The model's generalizability was tested on a separate dataset, where it achieved a 74% accuracy, demonstrating its effectiveness on new data.
+**Testing on Unseen Data:** The model's generalizability was tested on a separate dataset, where it achieved a 74% accuracy, demonstrating its effectiveness on new data.
 
-Probability Estimation: Beyond binary classification, the model provided probabilities for each classification, offering a more detailed perspective on absenteeism likelihood.
+**Probability Estimation:** Beyond binary classification, the model provided probabilities for each classification, offering a more detailed perspective on absenteeism likelihood.
 
-Conclusion
+##Conclusion
 The logistic regression model presented in the "Absenteeism in The Workplace" repository is a potent tool for predicting absenteeism. Its balanced approach between accuracy and interpretability, coupled with its ability to provide probabilistic insights, makes it highly valuable for organizations aiming to understand and address workforce absenteeism. The model's adaptability to new data further underscores its practical utility in real-world scenarios.
-## Conclusion
-We conclude our result and give a recommendation based on it
-* Summary Model
-![Daily Work](Image/summary.png)
-* Business Insight
-  * January & February have the least average absenteeism besides that March
+
