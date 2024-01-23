@@ -8,7 +8,7 @@ This report delves into the analysis of absenteeism in the workplace, based on t
   <summary>Table of Content</summary>
   <ol>
     <li>
-      <a href="#business-background">Business Background</a>
+      <a href="#Case-Problem">Case Problem</a>
     </li>
     <li>
       <a href="#data-understanding">Data Understanding</a>
@@ -31,12 +31,15 @@ This report delves into the analysis of absenteeism in the workplace, based on t
   </ol>
 </details>
 
-## Business Background
+## Case Problem
 **Context :**  
-Organizations for years have been looking for ways to improve human resource management by paying attention to aspects such as work organization, organizational environment, or personal issues to reduce employee absenteeism at work and to reduce high employee turnover. However, with the various ways that have been done so far, the absenteeism rate in some organizations still tends to be high. Absenteeism defined as any failure of an employee to report for or remain at work as scheduled, regardless of reason, expresses a monetary implication. The term ‘as scheduled’ is very significant, for this automatically excludes vacations, holidays, jury duty, and the like. It also eliminates the problem of determining whether the absenteeism is excusable or not. The absence of workers from the workplace can be disruptive and increase costs for the organization and is an indication that there is poor work adjustment for employees.
+Today's highly competitive business environment exerts increased pressure on employees, potentially resulting in unattainable business goals and a heightened risk of job insecurity, which, in turn, can elevate stress levels. Prolonged exposure to these stressors can negatively impact an individual's health, potentially leading to minor illnesses or even long-term conditions like depression. However, our focus is on addressing this issue from the standpoint of enhancing company productivity. Specifically, we aim to predict absenteeism from the workplace, providing insights into whether an employee is likely to be absent for a certain number of hours during a workday. Anticipating such absences can enhance decision-making and enable us to reorganize workflow efficiently, thus preventing productivity gaps and improving overall work quality.
 
-**Problem Statement :**  
-From a business perspective, employees who are not present to do their jobs will cost more than they should. The absence is a big problem because it reduces output and is annoying because it requires rescheduling and changing programs which is one of the contributing factors to the failure of a department's organization to meet performance targets.
+Defining Absenteeism: Absenteeism refers to the absence from work during regular working hours, resulting in temporary incapacity to perform standard work activities.
+
+Throughout our analysis, we'll address key questions, such as the data on which we base our absenteeism predictions, how we measure absenteeism, and whether we should focus on predicting excessive absenteeism. Our ultimate objective is to determine whether individuals with specific characteristics are likely to be absent from work and, if so, for how many hours. This information will help us make informed decisions related to workforce management, considering factors like employees' proximity to the workplace, family size, educational background, and more.
+
+The data set we'll be working on, is based on the data set of an already existing study about the prediction of absenteeism at work. We will be using both Primary and Secondary sources of data, as we will create some data in this Lab. We will use Python,SQL and Tableau to clean, analyze and visualize our findings.
 
 **Objective :**  
 The primary objective of this report is to develop a predictive model for absenteeism in the workplace. In today's fast-paced and competitive business environment, understanding and anticipating employee absenteeism is crucial for maintaining productivity and efficient workflow management. The goal is to analyze various factors that contribute to absenteeism and use this information to predict the likelihood and duration of an employee's absence from work.
